@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family:'Comfortaa';
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+    width:auto;
+    overflow-x: hidden;
+    padding-bottom: 5rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+a{
+   color: white;
+   font-weight: bold;
+   font-size: 25px;
+   text-shadow: 2px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 10%;
+}
+h1{
+    display:block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Pacifico', cursive;
+}
+main{
+    justify-content: center;
+    padding-left: 30px;
+}
+.images{
+    display: grid;
+    grid-template: repeat(12,1fr) / repeat(12,1fr);
+    height: 800px;
+}
+#south_dakota_skyline{
+    height: 20rem;
+    width: auto;
+    grid-area: 1 / 1 / 7 / 7 ;
+}
+#road_green_blue{
+    height: 20rem;
+    width: auto;
+    grid-area: 4 / 6 / 6 / 9 ;
+}
+#mountains_sky{
+    height: 20rem;
+    width: auto;
+    grid-area:  8 / 2 / 10 / 5;
+    z-index: 2;
+}
+.kansas{
+    grid-area: 7 / 11 / 8 / 12;
+    font-size: 1rem;
+}
+.sd{
+    grid-area: 3 / 1 / 4 / 2; 
+    font-size: 1rem;
+    z-index: 4;
+}
+.sd2{
+    font-size: 1rem;
+    grid-area: 11 / 6 / 12 / 7;
+    z-index: 4;
+}
+.contact{
+    border: 2px solid grey;
+    width:fit-content;
+    padding: 1rem;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+}
